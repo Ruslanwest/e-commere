@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="21.289" tests="1" failures="0" errors="0">
+   <testsuite name="login" tests="1" failures="0" errors="0" time="21.289" skipped="0" timestamp="07-02-2024T16:09:24" hostname="BRI - LAPTOP-GLHGBC14" id="Test Suites/User/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation\\e-commerce\\E-Commerce\\Reports\\20240207_160915\\User\\login\\20240207_160915"/>
+         <property name="logFiles" value="D:\\Automation\\e-commerce\\E-Commerce\\Reports\\20240207_160915\\User\\login\\20240207_160915\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BRI - LAPTOP-GLHGBC14"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Edge Chromium 121"/>
+         <property name="hostAddress" value="172.16.213.24"/>
+         <property name="sessionId" value="7da89c099c1d44674487a03772dab8b0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Our Product/User/Login" time="20.937" classname="Test Cases/Our Product/User/Login" status="PASSED">
+         <system-out><![CDATA[07-02-2024T16:09:24 - [TEST_CASE][PASSED] - Test Cases/Our Product/User/Login: Test Cases/Our Product/User/Login
+
+07-02-2024T16:09:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-02-2024T16:09:25 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+07-02-2024T16:09:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-02-2024T16:09:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-02-2024T16:09:30 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+07-02-2024T16:09:34 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+07-02-2024T16:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/User_Icon")): Object: 'Object Repository/Login/Page_Advantage Shopping/User_Icon' is clicked on
+
+07-02-2024T16:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/User_Icon' is clicked on
+
+07-02-2024T16:09:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Advantage Shopping/username_login"), username): Text 'ruslan' is set on object 'Object Repository/Login/Page_Advantage Shopping/username_login'
+
+07-02-2024T16:09:40 - [MESSAGE][PASSED] - Text 'ruslan' is set on object 'Object Repository/Login/Page_Advantage Shopping/username_login'
+
+07-02-2024T16:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Advantage Shopping/password_login"), password): Text 'P@ssw0rd' is set on object 'Object Repository/Login/Page_Advantage Shopping/password_login'
+
+07-02-2024T16:09:42 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login/Page_Advantage Shopping/password_login'
+
+07-02-2024T16:09:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Advantage Shopping/sign_in")): Object: 'Object Repository/Login/Page_Advantage Shopping/sign_in' is clicked on
+
+07-02-2024T16:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Advantage Shopping/sign_in' is clicked on
+
+07-02-2024T16:09:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Page_Advantage Shopping/span_ruslan"), 0): Object 'Object Repository/Login/Page_Advantage Shopping/span_ruslan' is present
+
+07-02-2024T16:09:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T16:09:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_Advantage Shopping/span_ruslan' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T16:09:24 - [TEST_SUITE][PASSED] - login: Test Cases/Our Product/User/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

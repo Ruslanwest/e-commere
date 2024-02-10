@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,Edge Chromium 121,,,07-02-2024 16:09:24,07-02-2024 16:09:45,21.289s,PASSED
+,,,,,,,
+Test Cases/Our Product/User/Login,Edge Chromium 121,,,07-02-2024 16:09:24,07-02-2024 16:09:45,20.937s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,07-02-2024 16:09:25,07-02-2024 16:09:30,5.421s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Edge Chromium 121,,,07-02-2024 16:09:30,07-02-2024 16:09:34,3.777s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/User_Icon""))",Edge Chromium 121,,,07-02-2024 16:09:34,07-02-2024 16:09:39,4.855s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Advantage Shopping/username_login""), username)",Edge Chromium 121,,,07-02-2024 16:09:39,07-02-2024 16:09:40,1.128s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Advantage Shopping/password_login""), password)",Edge Chromium 121,,,07-02-2024 16:09:40,07-02-2024 16:09:42,2.039s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Advantage Shopping/sign_in""))",Edge Chromium 121,,,07-02-2024 16:09:42,07-02-2024 16:09:43,1.315s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Page_Advantage Shopping/span_ruslan""), 0)",Edge Chromium 121,,,07-02-2024 16:09:43,07-02-2024 16:09:45,1.929s,PASSED

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Registrasi,Edge Chromium 121,,,07-02-2024 15:33:54,07-02-2024 15:34:41,46.424s,PASSED
+,,,,,,,
+Test Cases/Our Product/User/Register,Edge Chromium 121,,,07-02-2024 15:33:55,07-02-2024 15:34:41,45.762s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,07-02-2024 15:33:56,07-02-2024 15:34:04,8.290s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Edge Chromium 121,,,07-02-2024 15:34:04,07-02-2024 15:34:09,4.736s,PASSED
+"click(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/UserIcon""))",Edge Chromium 121,,,07-02-2024 15:34:09,07-02-2024 15:34:13,4.844s,PASSED
+"click(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/Create New Account""))",Edge Chromium 121,,,07-02-2024 15:34:13,07-02-2024 15:34:14,0.907s,PASSED
+"click(findTestObject(""Registrasi/Page_Advantage Shopping/username""))",Edge Chromium 121,,,07-02-2024 15:34:14,07-02-2024 15:34:18,3.845s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/username""), username)",Edge Chromium 121,,,07-02-2024 15:34:18,07-02-2024 15:34:19,0.925s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/email""), email)",Edge Chromium 121,,,07-02-2024 15:34:19,07-02-2024 15:34:20,1.245s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/password""), password)",Edge Chromium 121,,,07-02-2024 15:34:20,07-02-2024 15:34:22,1.515s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/confirm password""), confirm_password)",Edge Chromium 121,,,07-02-2024 15:34:22,07-02-2024 15:34:23,1.263s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/first_name""), first_name)",Edge Chromium 121,,,07-02-2024 15:34:23,07-02-2024 15:34:25,1.514s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/last_name""), last_name)",Edge Chromium 121,,,07-02-2024 15:34:25,07-02-2024 15:34:26,1.462s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/phone""), phone)",Edge Chromium 121,,,07-02-2024 15:34:26,07-02-2024 15:34:28,1.393s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/country""), country, true)",Edge Chromium 121,,,07-02-2024 15:34:28,07-02-2024 15:34:32,4.610s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/city""), city)",Edge Chromium 121,,,07-02-2024 15:34:32,07-02-2024 15:34:33,0.836s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/address""), address)",Edge Chromium 121,,,07-02-2024 15:34:33,07-02-2024 15:34:34,1.230s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/state""), state)",Edge Chromium 121,,,07-02-2024 15:34:34,07-02-2024 15:34:36,1.336s,PASSED
+"setText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/postal_code""), postal_code)",Edge Chromium 121,,,07-02-2024 15:34:36,07-02-2024 15:34:37,1.177s,PASSED
+"click(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/check exclusive offers""))",Edge Chromium 121,,,07-02-2024 15:34:37,07-02-2024 15:34:37,0.693s,PASSED
+"click(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/button_REGISTER""))",Edge Chromium 121,,,07-02-2024 15:34:37,07-02-2024 15:34:38,0.485s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/span_ruslan1""), username)",Edge Chromium 121,,,07-02-2024 15:34:38,07-02-2024 15:34:40,2.128s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Registrasi/Page_Advantage Shopping/label_My account""), 0)",Edge Chromium 121,,,07-02-2024 15:34:40,07-02-2024 15:34:40,0.496s,PASSED

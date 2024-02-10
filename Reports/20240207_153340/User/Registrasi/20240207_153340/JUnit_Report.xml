@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Registrasi" time="46.424" tests="1" failures="0" errors="0">
+   <testsuite name="Registrasi" tests="1" failures="0" errors="0" time="46.424" skipped="0" timestamp="07-02-2024T15:33:54" hostname="BRI - LAPTOP-GLHGBC14" id="Test Suites/User/Registrasi">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation\\e-commerce\\E-Commerce\\Reports\\20240207_153340\\User\\Registrasi\\20240207_153340"/>
+         <property name="logFiles" value="D:\\Automation\\e-commerce\\E-Commerce\\Reports\\20240207_153340\\User\\Registrasi\\20240207_153340\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BRI - LAPTOP-GLHGBC14"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Edge Chromium 121"/>
+         <property name="hostAddress" value="172.16.213.24"/>
+         <property name="sessionId" value="da6bf32690d7d338e03325e135168028"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Our Product/User/Register" time="45.762" classname="Test Cases/Our Product/User/Register" status="PASSED">
+         <system-out><![CDATA[07-02-2024T15:33:55 - [TEST_CASE][PASSED] - Test Cases/Our Product/User/Register: Test Cases/Our Product/User/Register
+
+07-02-2024T15:33:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-02-2024T15:33:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+07-02-2024T15:33:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-02-2024T15:34:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-02-2024T15:34:04 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+07-02-2024T15:34:09 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+07-02-2024T15:34:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/UserIcon")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/UserIcon' is clicked on
+
+07-02-2024T15:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/UserIcon' is clicked on
+
+07-02-2024T15:34:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/Create New Account")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/Create New Account' is clicked on
+
+07-02-2024T15:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/Create New Account' is clicked on
+
+07-02-2024T15:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Page_Advantage Shopping/username")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/username' is clicked on
+
+07-02-2024T15:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/username' is clicked on
+
+07-02-2024T15:34:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/username"), username): Text 'ruslan' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/username'
+
+07-02-2024T15:34:19 - [MESSAGE][PASSED] - Text 'ruslan' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/username'
+
+07-02-2024T15:34:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/email"), email): Text 'ruslan@gmail.com' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/email'
+
+07-02-2024T15:34:20 - [MESSAGE][PASSED] - Text 'ruslan@gmail.com' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/email'
+
+07-02-2024T15:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/password"), password): Text 'P@ssw0rd' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/password'
+
+07-02-2024T15:34:22 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/password'
+
+07-02-2024T15:34:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/confirm password"), confirm_password): Text 'P@ssw0rd' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/confirm password'
+
+07-02-2024T15:34:23 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/confirm password'
+
+07-02-2024T15:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/first_name"), first_name): Text 'ruslan' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/first_name'
+
+07-02-2024T15:34:25 - [MESSAGE][PASSED] - Text 'ruslan' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/first_name'
+
+07-02-2024T15:34:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/last_name"), last_name): Text 'aja' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/last_name'
+
+07-02-2024T15:34:26 - [MESSAGE][PASSED] - Text 'aja' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/last_name'
+
+07-02-2024T15:34:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/phone"), phone): Text '857490' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/phone'
+
+07-02-2024T15:34:27 - [MESSAGE][PASSED] - Text '857490' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/phone'
+
+07-02-2024T15:34:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/country"), country, true): All options with label 'Indonesia' are selected in object 'Object Repository/Registrasi/Page_Advantage Shopping/country'  using regular expression
+
+07-02-2024T15:34:32 - [MESSAGE][PASSED] - All options with label 'Indonesia' are selected in object 'Object Repository/Registrasi/Page_Advantage Shopping/country'  using regular expression
+
+07-02-2024T15:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/city"), city): Text 'depok' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/city'
+
+07-02-2024T15:34:33 - [MESSAGE][PASSED] - Text 'depok' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/city'
+
+07-02-2024T15:34:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/address"), address): Text 'depok' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/address'
+
+07-02-2024T15:34:34 - [MESSAGE][PASSED] - Text 'depok' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/address'
+
+07-02-2024T15:34:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/state"), state): Text 'jawa barat' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/state'
+
+07-02-2024T15:34:36 - [MESSAGE][PASSED] - Text 'jawa barat' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/state'
+
+07-02-2024T15:34:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/postal_code"), postal_code): Text '16452' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/postal_code'
+
+07-02-2024T15:34:37 - [MESSAGE][PASSED] - Text '16452' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/postal_code'
+
+07-02-2024T15:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/check exclusive offers")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/check exclusive offers' is clicked on
+
+07-02-2024T15:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/check exclusive offers' is clicked on
+
+07-02-2024T15:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/button_REGISTER")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/button_REGISTER' is clicked on
+
+07-02-2024T15:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/button_REGISTER' is clicked on
+
+07-02-2024T15:34:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/span_ruslan1"), username): Actual text and expected text of test object 'Object Repository/Registrasi/Page_Advantage Shopping/span_ruslan1' are matched.
+
+07-02-2024T15:34:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Registrasi/Page_Advantage Shopping/span_ruslan1' are matched.
+
+07-02-2024T15:34:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/label_My account"), 0): Object 'Object Repository/Registrasi/Page_Advantage Shopping/label_My account' is present
+
+07-02-2024T15:34:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T15:34:40 - [MESSAGE][PASSED] - Object 'Object Repository/Registrasi/Page_Advantage Shopping/label_My account' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T15:33:54 - [TEST_SUITE][PASSED] - Registrasi: Test Cases/Our Product/User/Register]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
